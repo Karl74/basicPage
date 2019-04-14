@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test react</title>
+</head>
+<body>
+
+	<div id="cont"></div>
+
+
+	<script src="https://unpkg.com/react@15.4.2/dist/react.js"></script>
+	<script src="https://unpkg.com/react-dom@15.4.2/dist/react-dom.js"></script>
+
+	<script>
+		
+		var style={
+			color:"red",
+			fontSize:"7em",
+			background:"black",
+			textAlign:"center",
+			border:"10px orange solid"
+		}
+
+		var myHeader= React.createElement("h1", {"style":style}, "Lo hice!");
+		ReactDOM.render(myHeader, document.getElementById("cont"));
+	</script>
+
+</body>
+</html>
