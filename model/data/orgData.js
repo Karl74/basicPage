@@ -32,13 +32,13 @@ const OrgData = {
 			info:" all this information"
 		}
 			],
-	Leadership:{
+	leadership:{
 			leaderName:"Jhon Doe",
-			leaderQuote: "this is a long string",
+			leaderQuote: '"Come and grow with us"',
 			email: "the.leader@mail.net"
 		},
 	generalInfo: {
-		adress:"this is the org addres",
+		adress:"7722 Heaven rd, Sinner, TX",
 		phone:"727-127-2323",
 	}
 	
