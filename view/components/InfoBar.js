@@ -2,13 +2,14 @@ import React from "react"
 import OrgData from "../../model/data/orgData"
 
 
-const InfoBar =({adress, phone}, {leaderName, leaderQuote, email})=>
-	<div>
-		<h1>{adress}</h1>
-		
-		<p>{phone}</p>
+const InfoBar =({props})=>
 
-		<h1>{leaderName}</h1>
+	<div>
+		<h1>{props.adress}</h1>
+		
+		<p>{props.phone}</p>
+
+		<h1>{props.leaderName}</h1>
 	
 	</div>	
 
