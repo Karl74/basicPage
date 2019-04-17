@@ -3,7 +3,7 @@ import {render} from "react-dom"
 import Header from "./components/Header"
 import InfoBar from "./components/InfoBar"
 import OrgData from "../model/data/orgData"
-import NavParent from "./components/NavParent"
+import components from "./components/NavParent"
 
 window.React = React
 
@@ -20,6 +20,24 @@ render(<InfoBar props={toInfobar} />,
 	document.getElementById("sidebar")
 	)
 
-render(<NavParent/>,
-	document.getElementById("navComps")
+
+render(<components.Menu1 props={OrgData.Menu1}/>,
+	document.getElementById("compo1")
 	)
+
+render(<components.Menu2 props={OrgData.Menu2}/>,
+	document.getElementById("compo2")
+	)
+
+render(<components.Menu3 props={OrgData.Menu3}/>,
+	document.getElementById("compo3")
+	)
+
+render(<components.Menu4 props={OrgData.Menu4}/>,
+	document.getElementById("compo4")
+	)
+
+render(<components.Menu5 props={OrgData.Menu5}/>,
+	document.getElementById("compo5")
+	)
+

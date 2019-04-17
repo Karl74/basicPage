@@ -60,8 +60,4 @@
 			grid-column: 3/6;
 		}
 
-		#navPar{
-			position: absolute;
-			grid-row: 1/4;
-			grid-column: 2/6
-		}
+		
