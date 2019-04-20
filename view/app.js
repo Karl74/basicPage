@@ -4,6 +4,7 @@ import Header from "./components/Header"
 import InfoBar from "./components/InfoBar"
 import OrgData from "../model/data/orgData"
 import components from "./components/NavParent"
+import Menu1 from "./components/Menu1"
 
 window.React = React
 
@@ -20,8 +21,11 @@ render(<InfoBar props={toInfobar} />,
 	document.getElementById("sidebar")
 	)
 
+// //////////////////////////////////////////////////////
 
-render(<components.Menu1 props={OrgData.Menu1}/>,
+
+
+render(<Menu1 text={OrgData.Menu1}/>,
 	document.getElementById("compo1")
 	)
 

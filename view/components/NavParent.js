@@ -2,14 +2,7 @@ import React from "react"
 
 
 const components ={
-	Menu1: ({props})=>
-
-		<div>
-			<h2>{props.secName}</h2>
-			<p>{props.info}</p>
-		</div>,
-
-
+	
 	Menu2: ({props})=>
 
 		<div>
