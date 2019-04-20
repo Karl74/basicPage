@@ -3,9 +3,12 @@ import {render} from "react-dom"
 import Header from "./components/Header"
 import InfoBar from "./components/InfoBar"
 import OrgData from "../model/data/orgData"
-import components from "./components/NavParent"
 import Menu1 from "./components/Menu1"
 import Menu2 from "./components/Menu2"
+import Menu3 from "./components/Menu3"
+import Menu4 from "./components/Menu4"
+import Menu5 from "./components/Menu5"
+
 
 window.React = React
 
@@ -34,15 +37,15 @@ render(<Menu2 text={OrgData.Menu2}/>,
 	document.getElementById("compo2")
 	)
 
-render(<components.Menu3 props={OrgData.Menu3}/>,
+render(<Menu3 text={OrgData.Menu3}/>,
 	document.getElementById("compo3")
 	)
 
-render(<components.Menu4 props={OrgData.Menu4}/>,
+render(<Menu4 text={OrgData.Menu4}/>,
 	document.getElementById("compo4")
 	)
 
-render(<components.Menu5 props={OrgData.Menu5}/>,
+render(<Menu5 text={OrgData.Menu5}/>,
 	document.getElementById("compo5")
 	)
 
