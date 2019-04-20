@@ -5,6 +5,7 @@ import InfoBar from "./components/InfoBar"
 import OrgData from "../model/data/orgData"
 import components from "./components/NavParent"
 import Menu1 from "./components/Menu1"
+import Menu2 from "./components/Menu2"
 
 window.React = React
 
@@ -29,7 +30,7 @@ render(<Menu1 text={OrgData.Menu1}/>,
 	document.getElementById("compo1")
 	)
 
-render(<components.Menu2 props={OrgData.Menu2}/>,
+render(<Menu2 text={OrgData.Menu2}/>,
 	document.getElementById("compo2")
 	)
 

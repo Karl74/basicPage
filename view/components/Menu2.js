@@ -2,7 +2,7 @@ import React from "react"
 import Board from "./Board"
 import {render} from "react-dom"
 
-class Menu1 extends React.Component{
+class Menu2 extends React.Component{
 	constructor(props){
 		super(props);
 		this.displayBoard = this.displayBoard.bind(this)
@@ -10,9 +10,8 @@ class Menu1 extends React.Component{
 
 	displayBoard(){
 		console.log(this.props)
-		render(<Board newText="Canada alli vamos" detail={this.props}/>,
-			document.getElementById("display"))
-			
+		render(<Board newText="Lo logramos!!!" detail={this.props}/>,
+			document.getElementById("display"))	
 	}
 
 	render(){
@@ -25,4 +24,4 @@ class Menu1 extends React.Component{
 	}
 }
 
-export default Menu1
+export default Menu2
