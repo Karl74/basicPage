@@ -10,7 +10,7 @@ class Menu1 extends React.Component{
 
 	displayBoard(){
 		console.log(this.props)
-		render(<Board newText="Canada alli vamos" detail={this.props}/>,
+		render(<Board newText="Canada alli vamos" detail={this.props} style={{background:"white"}}/>,
 			document.getElementById("display"))
 			
 	}
