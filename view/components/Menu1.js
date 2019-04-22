@@ -10,14 +10,15 @@ class Menu1 extends React.Component{
 
 	displayBoard(){
 		console.log(this.props)
-		render(<Board newText="Canada alli vamos" detail={this.props} style={{background:"white"}}/>,
+		render(<Board newText="Canada alli vamos" detail={this.props}/>,
 			document.getElementById("display"))
 			
 	}
 
 	render(){
 		return(
-			<div onClick={this.displayBoard}>
+			<div onClick={this.displayBoard} className="menuItem"
+			 style={{backgroundImage:"url(./images/Einside.jpg)"}}>
 				<h2>{this.props.text.secName}</h2>
 				<p>{this.props.text.info}</p>
 			</div>

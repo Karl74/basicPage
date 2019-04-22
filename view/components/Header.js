@@ -1,7 +1,9 @@
 import React from "react"
 import OrgData from "../../model/data/orgData"
 
+
 const h1Style = {
+  
   fontFamily: '"Century Gothic", CenturyGothic, "AppleGothic", sans-serif',
   fontSize: "30px",
   padding: "5px 5px",
