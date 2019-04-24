@@ -16,11 +16,17 @@ class Menu1 extends React.Component{
 	}
 
 	render(){
+
+		const pSty={
+			color: "white"	
+		}
+
+
 		return(
 			<div onClick={this.displayBoard} className="menuItem"
 			 style={{backgroundImage:"url(./images/Einside.jpg)"}}>
 				<h2>{this.props.text.secName}</h2>
-				<p>{this.props.text.info}</p>
+				<p style={pSty}>{this.props.text.info}</p>
 			</div>
 			)
 	}

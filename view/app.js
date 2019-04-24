@@ -21,7 +21,7 @@ render(
 const {generalInfo, leadership} = OrgData
 const toInfobar = {...generalInfo, ...leadership}
 
-render(<InfoBar props={toInfobar} />,
+render(<InfoBar inform={toInfobar} />,
 	document.getElementById("sidebar")
 	)
 
