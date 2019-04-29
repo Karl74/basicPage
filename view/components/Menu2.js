@@ -20,8 +20,8 @@ class Menu2 extends React.Component{
 			color: "white"	
 		}
 		return(
-			<div onClick={this.displayBoard} className="menuItem"
-			 style={{backgroundImage:"url(./images/Eclocktower.jpg)"}}>
+			<div id="compo2" onClick={this.displayBoard} className="menuItem"
+			 style={{backgroundImage:"url(./view/images/Eclocktower.jpg)"}}>
 				<h2>{this.props.text.secName}</h2>
 				<p style={pSty}>{this.props.text.info}</p>
 			</div>

@@ -33,6 +33,7 @@ body {
 	background: #3f87ff;
 	grid-row: 2/4;
 	grid-column: 1/2;
+	padding: 10px;
 }
 
 #compo1{
@@ -61,8 +62,14 @@ body {
 }
 
 #display{
+	background-image: url(../images/dove.jpg);
+	background-color: #47d;
+	background-blend-mode:screen;
+	background-size: cover;
+	border-radius:25px;
 	grid-row: 2/4;
 	grid-column: 3/6;
+	padding:10px;
 }
 
 .menuItem{
@@ -83,3 +90,5 @@ body {
 .menuItem:hover {
 	background-color: transparent;
 }
+
+

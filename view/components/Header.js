@@ -19,7 +19,7 @@ const {orgName} = OrgData
 const {moto} = OrgData
 
 const Header = ()=>
-		<div>
+		<div id="uno">
       <h1 style={h1Style}> {orgName}  </h1>
 		
       <h3>{moto}</h3>

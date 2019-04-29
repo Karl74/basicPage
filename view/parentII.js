@@ -8,9 +8,25 @@ import Menu2 from "./components/Menu2"
 import Menu3 from "./components/Menu3"
 import Menu4 from "./components/Menu4"
 import Menu5 from "./components/Menu5"
-import Parent from "./parent"
+
+class Parent extends React.component{
+	constructor(){
+		super()
+
+		
+	}
 
 
-window.React = React
+	aFunction(){
+		let one="doNoting"
+	}
 
-render(<Parent/>, document.getElementById("main"))
+	render(){
+		return(
+			<div>"hello guys"</div>
+			)
+	}
+}//end of class
+
+
+export default Parent
