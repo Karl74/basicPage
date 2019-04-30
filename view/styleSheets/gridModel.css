@@ -13,9 +13,8 @@ body {
 	margin:auto;
 	display: grid;
 	height: 100vh;
-	width: 190vh;
-	grid-template-rows: 28vh 35vh 35vh;
-	grid-template-columns: 24vw 16vw 16vw 16vw 16vw;
+	grid-template-rows: repeat(3, 1fr);
+	grid-template-columns: repeat(5, 1fr);
 	grid-gap:10px;
 }
 
@@ -73,10 +72,6 @@ body {
 }
 
 .menuItem{
-	min-width: 185px;
-	max-width: 260px;
-	min-height: 185px;
-	max-height: 185px;
 	border-radius: 15px;
 	background-size: cover;
 	background-color: hsl(209, 40%, 75%);

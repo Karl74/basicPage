@@ -13,7 +13,8 @@ const content={
 
 const footer={
 	flexBasis:"10%",
-	color:"DarkBlue"
+	color:"DarkBlue",
+	textAlign:"center"
 }
 
 const InfoBar =({inform})=>
