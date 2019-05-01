@@ -80,10 +80,14 @@ body {
 }
 
 @media screen and (max-width: 650px) {
+	body{
+		width:100%;
+	}
 	.app-layout{
+		width:100%;
 	display: grid;
-	grid-template-rows: repeat(3, 1fr);
-	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	grid-template-areas: "header header header" "menu1 menu2 menu3" "menu4 menu5 ." "display display display" "sidebar sidebar sidebar";
 	grid-gap:10px;
 }
