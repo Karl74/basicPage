@@ -79,7 +79,7 @@ body {
 	background-color: transparent;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 650px) {
 	.app-layout{
 	display: grid;
 	grid-template-rows: repeat(3, 1fr);
